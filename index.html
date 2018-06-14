@@ -1,89 +1,98 @@
 <!DOCTYPE html>
 <html lang="us-en">
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-        <title> About | Casey Monroe</title>
+    <title> About | Casey Monroe</title>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
 
-       <style>
-
-           body {
+    <style>
+        body {
+            padding: 35px;
             font-family: 'Libre Franklin', sans-serif;
-           }
-           body {
-               background-color: lightgrey
-           }
-           footer{
-               padding: 17px 0;
-               background-color: rgb(53, 53, 53); 
-               color: white; 
-               text-align: center;
-               font-size: 12px;
-               height: 50px;
-           }
-           nav.nav-item {
-               float: right;
-           }
+        }
 
-        </style>
+        body {
+            background-color: lightgrey
+        }
 
-    </head>
+        footer {
+            padding: 17px 0;
+            background-color: rgb(53, 53, 53);
+            color: white;
+            text-align: center;
+            font-size: 12px;
+            height: 50px;
+        }
+
+        div.row {
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
 <body>
 
-<container-fluid>
+    <div class="container-fluid">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Casey Monroe</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Casey Monroe</a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item" id="navbarSupportedContent">
-                <a class="nav-link" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item" id="navbarSupportedContent">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item" id="navbarSupportedContent">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
     </div>
-    </nav>
+    <div class="container-fluid">
 
-    <container class="aboutmecontainer">
-
-        <div class="aboutme">
+        <div class="container">
 
             <div class="row">
-                <div class="col-1"></div>
-                <div class="col-10">
-                        <h1 class="aboutmehead">
-                            <br>
-                            About Me
-                        </h1>
-                </div>
-                <div class="col-1"></div>
-            </div>
-            </div>
+                <div class="col-md-3"></div>
 
-            <div class="row">
-                <div class="col-1"></div>
-
-                <div class="col-10">
+                <div class="col-md-6">
                     <!--Image of me Goes Here-->
-                     <br>
-                     <img src="mirror_lake_crm.png" class="img-fluid.max-width: 50%; height: auto; rounded-float-left" alt="Mirror Lake, Utah">
+                    <br>
+                    <img src="assets/images/mirror_lake_crm.png" class="img-fluid rounded-circle" alt="Mirror Lake, Utah">
                 </div>
 
-                <div class="col-1"></div>
+                <div class="col-md-3"></div>
+            </div>
+
+            <div class="aboutme">
+
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <h1 class="aboutmehead">
+                            <br> About Me
+                        </h1>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
             </div>
 
             <div class="row">
@@ -92,14 +101,25 @@
                 <div class="col-10">
 
                     <p>
-                        I was born and raised in San Antonio, Texas where I graduated from Alamo Heights High School. After high school I attended Texas Tech University where I graduated with a bachelors degree in Restaurant, Hotel, and Institutional Management! During school I spent time in restaurants as well as the food and beverage departments for hotels and resorts. After graduation I worked in management with Enterprise Rent-A-Car for a few years before deciding to move into the technology field.
+                        I was born and raised in San Antonio, Texas where I graduated from Alamo Heights High School. After high school I attended
+                        Texas Tech University where I graduated with a bachelors degree in Restaurant, Hotel, and Institutional
+                        Management! During school I spent time in restaurants as well as the food and beverage departments
+                        for hotels and resorts. After graduation I worked in management with Enterprise Rent-A-Car for a
+                        few years before deciding to move into the technology field.
                     </p>
                     <p>
-                        The technology field has always been extremely exciting for me. From video games to computer programs(mostly a variety of sound and video editing) to digital media, it has always been a huge passion of mine. While I make my move into the technology field it's extremely important for me to create and begin to build a portfolio that shows a solid foundation as well as my aptitude and excitement for development and design!
+                        The technology field has always been extremely exciting for me. From video games to computer programs(mostly a variety of
+                        sound and video editing) to digital media, it has always been a huge passion of mine. While I make
+                        my move into the technology field it's extremely important for me to create and begin to build a
+                        portfolio that shows a solid foundation as well as my aptitude and excitement for development and
+                        design!
                     </p>
                     <p>
-                        Aside from the technology field I am also a huge fan of sports(Wreck 'Em Tech, Go Astros, and Go Spurs Go!), music, and the spending time outdoors! The picture of me was taken on a hike near my family's home in Sundance, Utah. The elevation at Mirror Lake is over 10,000 feet!
+                        Aside from the technology field I am also a huge fan of sports(Wreck 'Em Tech, Go Astros, and Go Spurs Go!), music, and the
+                        spending time outdoors! The picture of me was taken on a hike near my family's home in Sundance,
+                        Utah. The elevation at Mirror Lake is over 10,000 feet!
                     </p>
+
                 </div>
 
                 <div class="col-1"></div>
@@ -107,18 +127,19 @@
 
         </div>
 
-    </container>
-        <!--About me container close-->
-        <br>
-        <br>
-        <br>
-        <footer>
-                <div class="footer">
-                  Copyright &copy; 
-                </div>
-        </footer>
+    </div>
+    <!--About me container close-->
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="footer">
+            Copyright &copy;
+        </div>
+    </footer>
 
-</container-fluid>
-        <!--Full Body container close-->
+    </div>
+    <!--Full Body container close-->
 </body>
+
 </html>
